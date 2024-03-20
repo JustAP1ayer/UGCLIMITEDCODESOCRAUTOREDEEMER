@@ -17,7 +17,7 @@ def check_clipboard():
                     pyautogui.moveTo(buy)
                 else:
                     pyautogui.moveTo(buy2)
-                pyautogui.click(clicks=3)
+                pyautogui.click(clicks=4)
                 time.sleep(0.1)
                 if copied == False:
                     pyautogui.hotkey("ctrl", "v")
